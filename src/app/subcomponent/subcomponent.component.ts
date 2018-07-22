@@ -5,8 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './subcomponent.component.html',
   styleUrls: ['./subcomponent.component.css']
 })
-export class SubcomponentComponent implements OnInit 
-{
+export class SubcomponentComponent implements OnInit {
   // Add input decorator as it will receve the data from parent
   @Input() public parentData;
   constructor() { }
